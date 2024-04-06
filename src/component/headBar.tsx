@@ -5,7 +5,7 @@ function HeadBar() {
     <div className={styles.Container}>
       <div className={styles.leftItem}>
         <a href='https://neurocylcq.cn'>
-          <img src='/src/assets/logo.svg' className={styles.logo}></img>
+          <img src='/logo.svg' className={styles.logo}></img>
         </a>
       </div>
       <div className={styles.rightItem}>
