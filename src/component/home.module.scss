@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.headScreen {
+  height: 100vh;
+  overflow-y: auto;
+  background: url('/headImg0.png');
+  background-size: cover; /* 自适应并填充容器 */
+  background-repeat: no-repeat; /* 禁止重复平铺 */
+  background-position: center; /* 图片居中显示 */
+}
+
+.info {  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 垂直居中 */
+  align-items: center; /* 水平居中 */
+  height: 100%;
+
+  .infoHead {
+    display: flex;
+    align-items: center;
+    
+    .logo {
+      height: 4em;
+      padding: 1.5em;
+      will-change: filter;
+      transition: filter 300ms;
+      border-radius: 3em;
+      margin-right: 10px;
+    
+      &:hover {
+        filter: drop-shadow(0 0 2em #646cffaa);
+      }
+      &.react:hover {
+        filter: drop-shadow(0 0 2em #61dafbaa);
+      }
+    }
+      
+  }
+
+  .infoContent {  
+    padding: 2em;  
+    font-size: 1.2em;  
+    line-height: 1.4;
+    max-width: 200px;
+  }
+}
+
+
+.content {
+  flex: none; /* 禁止内容区域自动扩展 */
+}

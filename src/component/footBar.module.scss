@@ -1,0 +1,22 @@
+.Container {
+  // flex-shrink: 0;
+  background: rgb(49, 49, 49);
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.content {
+
+  .Copyright {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+  }
+}
